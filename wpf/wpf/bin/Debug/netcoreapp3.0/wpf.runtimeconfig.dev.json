@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\mehro\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\mehro\\.nuget\\packages"
+    ]
+  }
+}
