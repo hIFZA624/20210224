@@ -1,0 +1,88 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.0": {
+      "ATM_Business_Object/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.0",
+        "compile": {
+          "bin/placeholder/ATM_Business_Object.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ATM_Business_Object.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ATM_Business_Object/1.0.0": {
+      "type": "project",
+      "path": "../ATM_Business_Object/ATM_Business_Object.csproj",
+      "msbuildProject": "../ATM_Business_Object/ATM_Business_Object.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.0": [
+      "ATM_Business_Object >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\mehro\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\mehro\\source\\repos\\ATM_Management_System\\Presentation_Layer\\Presentation_Layer.csproj",
+      "projectName": "Presentation_Layer",
+      "projectPath": "C:\\Users\\mehro\\source\\repos\\ATM_Management_System\\Presentation_Layer\\Presentation_Layer.csproj",
+      "packagesPath": "C:\\Users\\mehro\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\mehro\\source\\repos\\ATM_Management_System\\Presentation_Layer\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\mehro\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "projectReferences": {
+            "C:\\Users\\mehro\\source\\repos\\ATM_Management_System\\ATM_Business_Object\\ATM_Business_Object.csproj": {
+              "projectPath": "C:\\Users\\mehro\\source\\repos\\ATM_Management_System\\ATM_Business_Object\\ATM_Business_Object.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.0": {
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

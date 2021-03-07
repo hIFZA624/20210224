@@ -1,0 +1,12 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ATM_Business_Object\ATM_Business_Object.csproj" />
+    <ProjectReference Include="..\ATM_Data_Acces_Layer\ATM_Data_Acces_Layer.csproj" />
+  </ItemGroup>
+
+</Project>
